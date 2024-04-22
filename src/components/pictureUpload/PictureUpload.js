@@ -102,8 +102,6 @@ const PictureUpload = () => {
     return msg;
   };
 
-  console.log("response",response)
-
   if (loading)
     return (
       <LoadingSpinner message="Uploading and identifying, this can take a few minutes depending on your internet connection." />
